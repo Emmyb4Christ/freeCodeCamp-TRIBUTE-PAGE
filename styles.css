@@ -1,0 +1,145 @@
+* {
+   border: 0;
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   max-width: 1000px;
+   background-color: #85868C;
+}
+
+.header {
+   width: 100%;
+   height: 80px;
+   border: 0;
+   background-color: #090C32;
+   position: fixed;
+   justify-content: center;
+   align-items: center;
+   padding: 10px 20px;
+   color: #40DE0D;
+}
+
+ .header h3 {
+   text-align: center;
+   padding: 0;
+   padding-top: 10px;
+   color: white;
+   font-size: 24px;
+   font-family: Tahoma;
+}
+
+#title {
+   border: 0;
+   width: 90%;
+   background-color: #E6E6E9;
+   margin: 30px 20px;
+   justify-content: center;
+   align-items: center;
+   margin-top: 0;
+   padding-top: 95px;
+}
+
+
+#img {
+   width: 75%;
+   height: 400px;
+   margin: 0 40px;
+   margin-top: 20px;
+}
+
+@media (min-width: 550px) {
+   #img {
+      width: 100%;
+      height: auto;
+   }
+}
+
+.title-content-div {
+   width: 100%;
+   border: none;
+   background-color: #B4B5BD;
+   height: 75px;
+   display: inline-block;
+   text-align: center;
+   padding-top: 20px;
+}
+
+.title-content-div p {
+   font-size: 12px;
+   font-family: Tahoma, sans-serif, 'Segoe UI', Tahoma, Geneva, Verdana;
+   font-style: italic;
+   margin-top: 5px;
+   font-weight: bold;
+   color: #37373A;
+}
+
+.title-content-div h1 {
+   font-family: sans-serif;
+   font-size: 24px;
+}
+
+#img-caption {
+   font-size: 14px;
+   text-align: center;
+   margin: 30px;
+   margin-top: 5px;
+   padding-bottom: 13px;
+   font-family: sans-serif;
+   line-height: 1.5rem;
+}
+
+#tribute-info {
+   width: 90%;
+   border: none;
+   background-color: rgba(255, 255, 255);
+   margin: 20px;
+}
+
+#tribute-info ul {
+   margin: 10px 25px;
+   margin-right: 15px;
+   text-align: justify;
+   font-family: Tahoma, sans-serif;
+   line-height: 2.0rem;
+   padding-bottom: 20px;
+}
+
+#tribute-info li {
+   margin-top: 10px;
+}
+
+#tribute-info h3 {
+   font-size: 18px;
+   text-align: center;
+   padding-top: 20px;
+}
+
+#footer-div {
+   width: 90%;
+   border: 0;
+   margin: 40px 20px;
+   justify-content: center;
+   align-items: center;
+   background-color: #E6E6E9;
+   padding-top: 10px;
+   padding-bottom: 5px;
+}
+
+#footer-div p {
+   text-align: center;
+   margin: 5px 0;
+   font-size: 14px;
+}
+
+.p-adjust{
+   margin-top: 20px;
+   margin-bottom: 0;
+}
+
+
+#tribute-link {
+   text-align: center;
+   margin: 10px;
+}
